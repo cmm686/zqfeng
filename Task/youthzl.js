@@ -13,9 +13,12 @@ const axios = require('axios');
       return pwd;
     }
     
+     //获取分享时间字符串
+    var q=Date.parse(new Date())/1000;
     
-
+//get 函数
     var aa=function(){
+
       
         var j = randomString();
     
