@@ -50,10 +50,10 @@ const sleep = function (ms){
   
 }
 const request = async function(){
-  for(let i=0;i<50;i++){
+  for(let i=0;i<500;i++){
     aa();
     var num=Math.ceil(Math.random() * 25);
-    await sleep(num*500);
+    await sleep(num*50);
   }
 }
 
