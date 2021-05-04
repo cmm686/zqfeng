@@ -23,7 +23,7 @@ const axios = require('axios');
       
         var j = randomString();
  var p = new Date().getTime();
-    const url = 'https://script.baertt.com/count2/callback?si='+j+'&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253D3YDwkj8dqQbPnoB4jAW9kAc0LkR5I3D8kEx1lgxXL9AJ2zORKM%2526uid%253D47917487%2526phone_code%253Ddf9ea038b6107276234b0c6a2cfaaea4%2526scid%253D38107794%2526time%253D'+q+'%2526app_version%253D2.0.2%2526sign%253Dbe97b664d976024eff94a9e29d1b801a&_='+p+'&jsonpcallback=jsonp6';
+    const url = 'https://script.baertt.com/count2/callback?si='+j+'&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253DWn8Pym36L9l0Yoz1y96qLXhYemJGuY3qzly1xKXjQqgZBMVdDe%2526uid%253D47917487%2526phone_code%253Ddf9ea038b6107276234b0c6a2cfaaea4%2526scid%253D38115291%2526time%253D'+q+'%2526app_version%253D2.0.2%2526sign%253D744f70937162d9c0f9df2c15be030b27&_='+p+'&jsonpcallback=jsonp6';
     
     return axios.get(url, {
     
