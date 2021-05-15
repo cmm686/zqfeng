@@ -23,7 +23,7 @@ const axios = require('axios');
       
         var j = randomString();
  var p = new Date().getTime();
-    const url = 'https://script.baertt.com/count2/callback?si='+j+'&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253Dmq63rgk0doNXbYK7LKMl2jcnXxmdf8x0zzb4EMLO9lwG2zQJeB%2526uid%253D47917487%2526phone_code%253Ddf9ea038b6107276234b0c6a2cfaaea4%2526scid%253D38274771%2526time%253D '+q+'%2526app_version%253D2.0.2%2526sign%253Df4ff67b2c76c91dd417a02a3dde23f90%2526from%253Dsinglemessage%2526isappinstalled%253D0&_= '+p+'&jsonpcallback=jsonp6 '；
+    const url = 'https://script.baertt.com/count2/callback?si='+j+'&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253Dmq63rgk0doNXbYK7LKMl2jcnXxmdf8x0zzb4EMLO9lwG2zQJeB%2526uid%253D47917487%2526phone_code%253Ddf9ea038b6107276234b0c6a2cfaaea4%2526scid%253D38274771%2526time%253D '+q+'%2526app_version%253D2.0.2%2526sign%253Df4ff67b2c76c91dd417a02a3dde23f90%2526from%253Dsinglemessage%2526isappinstalled%253D0&_= '+p+'&jsonpcallback=jsonp6 ';
     
     return axios.get(url, {
     
